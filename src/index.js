@@ -17,7 +17,7 @@ console.log('test')
 export default {
   start() {
     server = app.listen(config.port, () => {
-      console.log(`server running on port ${config.port}`);
+      console.log(``);
     });
   },
 
