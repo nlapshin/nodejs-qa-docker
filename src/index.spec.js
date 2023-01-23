@@ -14,7 +14,7 @@ describe('GET /hello/:name', () => {
 
   test('Should return welcome string', async () => {
     const res = await supertest(config.url)
-      .get('/hello/sashka')
+      .get('/hello/sashka322')
       .set('Accept', 'application/json');
 
     expect(res.body).toEqual({ msg: 'Hello nik from express' })
